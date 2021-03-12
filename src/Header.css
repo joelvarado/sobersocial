@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    padding: 15px 15px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.homeHeader_left {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.homeHeader_right {
+    display: flex;
+}
+
+.homeHeader_logo > img {
+    height: 40px;
+}
+
+.homeHeader_inputSearch {
+    align-items: center;
+    background-color: rgb(250, 250, 250);
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 999px;
+}
+
+.homeHeader_inputSearch > input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+.homeHeader_option {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.homeHeader_option:hover {
+    color: #ff6633;
+}
